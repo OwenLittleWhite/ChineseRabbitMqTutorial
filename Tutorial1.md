@@ -180,4 +180,4 @@ sudo rabbitmqctl list_queues
 rabbitmqctl.bat list_queues
 ```
 
-教程2*work queue*.
+[教程2*work queue*](https://github.com/OwenLittleWhite/ChineseRabbitMqTutorial/blob/master/Tutorial2.md).
