@@ -120,7 +120,7 @@ sudo rabbitmqctl list_bindings
 
 ## 全部放一起
 
-![python-three-overall.png](http://www.rabbitmq.com/img/tutorails/python-three-overall.png)
+![python-three-overall.png](http://www.rabbitmq.com/img/tutorials/python-three-overall.png)
 
 发出日志消息的生产者程序与前面的教程没有什么不同。 最重要的变化是，
 我们现在要发布消息到我们的logger交换机，而不是无名的。 发送时我们需要提供一个路由键，但是对于扇出交换机，它的值将被忽略。 这里是`emit_log.js`代码：
@@ -207,5 +207,4 @@ sudo rabbitmqctl list_bindings
 
 结果的解释很简单：交换机logs中的数据转到两个带有服务器分配名称的队列中。 这正是我们的意图。
 
-To find out how to listen for a subset of messages, let's move on to tutorial 4
 想知道我们如何监听消息的一部分，让我们到[教程4](https://github.com/OwenLittleWhite/ChineseRabbitMqTutorial/blob/master/Tutorial4.md)
